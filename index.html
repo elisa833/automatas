@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Árbol de Expresiones</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="bg-dark">
+    <div class="d-flex flex-column d-flex align-items-center">
+        <div class="datos mt-3 p-5">
+            <div class="input-group input-group-lg mb-3">
+                <span class="input-group-text text-uppercase fs-2 fw-bold bg-success" id="inputGroup-sizing-lg">Expresion</span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="expression">
+             </div>
+            <button class="btn btn-success w-100 fs-3 fw-bold" id="submit">Generar Árbol</button>
+            <div class="mt-3">
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text text-uppercase fs-2 fw-bold bg-success" id="inputGroup-sizing-lg">Preorden</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="preorden" readonly>
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text text-uppercase fs-2 fw-bold bg-success" id="inputGroup-sizing-lg">Inorden</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="inorden" readonly>
+                </div>
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text text-uppercase fs-2 fw-bold bg-success" id="inputGroup-sizing-lg">Postorden</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" id="postorden" readonly>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="arbol"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.datos {
+    width: 40%;
+    background-color: #e5d5a1;
+    ;
+;
+}
+*{
+    background-color: blanchedalmond;
+}
+
+#arbol {
+    margin-top: 30px;
+}
+
+.nodo {
+    /* display: inline-block; */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e5d5a1;
+    font-size: 20px;
+    text-align: center;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nodo-hijos {
+    display: flex;
+    justify-content: center;
+}
+
+div[data-numero="num"] {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 37, 205);
+    border-radius: 50%;
+    color: black;
+    font-size: 45px;
+    border: 3px black solid;
+}
+
+div[data-simbolo="sim"] {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(223, 37, 252, 0.927);
+    border-radius: 50%;
+    color: black;
+    font-size: 45px;
+    border: 3px black solid;
+}
